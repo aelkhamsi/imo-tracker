@@ -1,0 +1,44 @@
+.homepage-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.names td {
+  padding: .5rem;
+}
+
+.names tr:nth-child(even) {
+  background-color: #3a3a3a;
+}
+
+.names tr:nth-child(even):hover {
+  background-color: #3e3e3e;
+  cursor: pointer;
+}
+
+.names tr:nth-child(odd) {
+  background-color: #303030;
+}
+
+.names tr:nth-child(odd):hover {
+  background-color: #343434;
+  cursor: pointer;
+}
