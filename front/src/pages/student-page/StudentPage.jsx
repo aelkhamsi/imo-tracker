@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { capitalize } from '../../utils/slug'
 import './student-page.css'
 
 const StudentPage = () => {
@@ -8,7 +9,7 @@ const StudentPage = () => {
   return (
     <div className='student-page-container'>
       <header>
-        {slug}
+        {capitalize(slug)}
       </header>
 
       <main>

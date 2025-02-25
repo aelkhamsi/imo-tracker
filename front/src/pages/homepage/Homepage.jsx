@@ -2,8 +2,8 @@ import imoLogo from '/imo_logo.svg'
 import './homepage.css'
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { getStudents } from '../api/UsersApi';
-import { getStudentSlug } from '../utils/slug';
+import { getStudents } from '../../api/UsersApi';
+import { getStudentSlug } from '../../utils/slug';
 
 const Homepage = () => {
   const [students, setStudents] = useState([])
