@@ -1,5 +1,37 @@
 header {
   border-bottom: solid gray .5px;
   font-size: 2rem;
-  padding: .5rem;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.progression {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* WIDTH */
+.elo-progression, .proba-progression-p1 {
+  width: 49%;
+}
+
+.proba-solving-p1 {
+  width: 30%;
+}
+
+.elo-progression img, .proba-progression-p1 img, .proba-solving-p1 img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .progression {
+    display: block;
+  }
+
+  .elo-progression, .proba-progression-p1, .proba-solving-p1 {
+    width: 100%;
+  }
 }

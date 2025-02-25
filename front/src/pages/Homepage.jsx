@@ -1,10 +1,21 @@
 import imoLogo from '/imo_logo.svg'
 import './homepage.css'
-import { students, getStudentSlug } from '../data/students'
 import { useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { getStudents } from '../api/UsersApi';
+import { getStudentSlug } from '../utils/slug';
 
 const Homepage = () => {
+  const [students, setStudents] = useState([])
   const navigate = useNavigate();
+
+  useEffect(() => {
+    getStudents()
+      .then(students => {
+        console.log('students', students)
+        setStudents(students)
+      })
+  }, [])
 
   return (
     <div className='homepage-container'>
