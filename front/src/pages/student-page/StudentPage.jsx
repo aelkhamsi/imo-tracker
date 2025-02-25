@@ -16,18 +16,18 @@ const StudentPage = () => {
         <div className='progression'>
           <div className='elo-progression'>
             <h2>ELO Progression</h2>
-            <img src={`${apiEndpoint}/elo_progression/${slug}.png`} alt="" />
+            <img src={`${apiEndpoint}/elo_progression/${slug}.webp`} alt="" />
           </div>
 
           <div className='proba-progression-p1'>
             <h2>Proba Progression P1</h2>
-            <img src={`${apiEndpoint}/proba_progression_p1/${slug}.png`} alt="" />
+            <img src={`${apiEndpoint}/proba_progression_p1/${slug}.webp`} alt="" />
           </div>
         </div>
 
         <div className='proba-solving-p1'>
           <h2>Proba Solving P1</h2>
-          <img src={`${apiEndpoint}/proba_solving_p1/${slug}.png`} alt="" />
+          <img src={`${apiEndpoint}/proba_solving_p1/${slug}.webp`} alt="" />
         </div>
       </main>
       
