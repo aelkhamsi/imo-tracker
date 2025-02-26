@@ -1,6 +1,5 @@
 const USERS = [
   { firstName: 'Hamza', lastName: 'ACHAK'},
-  { firstName: 'Anas', lastName: 'TAHIRI ALAOUI'},
   { firstName: 'Aymane', lastName: 'SAIDI'},
   { firstName: 'Ayoub', lastName: 'FDILI'},
   { firstName: 'Haitam', lastName: 'BENTAYEBI'},
@@ -14,7 +13,6 @@ const USERS = [
   { firstName: 'Mustapha Amine', lastName: 'AHIZOUNE'},
   { firstName: 'Nada', lastName: 'SANHADJI'},
   { firstName: 'Omar', lastName: 'ELHARIRI'},
-  { firstName: 'Rida', lastName: 'EL BOURKHISSI'},
   { firstName: 'Saad', lastName: 'GUESSOUS'},
   { firstName: 'Sami', lastName: 'MOUSSAOUI'},
   { firstName: 'Mountassir', lastName: 'TIGUINT'},
