@@ -1,0 +1,21 @@
+header {
+  border-bottom: solid gray .5px;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .chart {
+  width: 90%;
+}
+
+main .chart img {
+  width: 100%;
+}
+

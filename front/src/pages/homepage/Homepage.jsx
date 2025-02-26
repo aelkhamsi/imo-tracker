@@ -26,9 +26,21 @@ const Homepage = () => {
       </div>
 
       <h1>IMO Tracker</h1>
+      <hr />
 
-      <div className='names'>
-        <h2>Click to track your progression</h2>
+      <div className='table-list'>
+        <h2>General Progress</h2>
+        <table>
+          <tbody>
+            <tr onClick={() => navigate('/summary')}>
+              <td>General Progress</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className='table-list'>
+        <h2>Individual Progress</h2>
         <table>
           <tbody>
             {students.map((student, index) => {

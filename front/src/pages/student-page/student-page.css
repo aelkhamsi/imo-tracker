@@ -32,11 +32,11 @@ main {
 }
 
 @media only screen and (max-width: 1024px) {
-  .progression {
+  .progression, .solving {
     display: block;
   }
 
-  .elo-progression, .proba-progression-p1, .proba-solving-p1 {
+  .elo-progression, .proba-progression-p1, .proba-solving-p1, .proba-solving-p2 {
     width: 100%;
   }
 }

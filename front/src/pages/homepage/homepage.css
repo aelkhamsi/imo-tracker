@@ -15,30 +15,30 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
-.names {
+.table-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.names td {
+.table-list td {
   padding: .5rem;
 }
 
-.names tr:nth-child(even) {
+.table-list tr:nth-child(odd) {
   background-color: #3a3a3a;
 }
 
-.names tr:nth-child(even):hover {
+.table-list tr:nth-child(odd):hover {
   background-color: #3e3e3e;
   cursor: pointer;
 }
 
-.names tr:nth-child(odd) {
+.table-list tr:nth-child(even) {
   background-color: #303030;
 }
 
-.names tr:nth-child(odd):hover {
+.table-list tr:nth-child(even):hover {
   background-color: #343434;
   cursor: pointer;
 }
