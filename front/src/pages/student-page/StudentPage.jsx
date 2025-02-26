@@ -13,6 +13,10 @@ const StudentPage = () => {
       </header>
 
       <main>
+        <div className='marks'>
+          <img src={`${apiEndpoint}/marks/${slug}.webp`} alt="" />
+        </div>
+
         <div className='progression'>
           <div className='elo-progression'>
             <h2>ELO Progression</h2>

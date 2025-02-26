@@ -18,6 +18,10 @@ main {
   gap: 2rem;
 }
 
+.marks {
+  width: 100%;
+}
+
 /* WIDTH */
 .elo-progression, .proba-progression-p1 {
   width: 49%;
@@ -27,7 +31,7 @@ main {
   width: 30%;
 }
 
-.elo-progression img, .proba-progression-p1 img, .proba-solving-p1 img, .proba-solving-p2 img {
+main img {
   width: 100%;
 }
 

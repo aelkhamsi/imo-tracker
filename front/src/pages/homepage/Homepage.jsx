@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { getStudents } from '../../api/UsersApi';
 import { getStudentSlug } from '../../utils/slug';
+import { DEFAULT_STUDENTS } from '../students';
 
 const Homepage = () => {
   const [students, setStudents] = useState([])
@@ -12,8 +13,11 @@ const Homepage = () => {
   useEffect(() => {
     getStudents()
       .then(students => {
-        console.log('students', students)
-        setStudents(students)
+        if (!students) setStudents(DEFAULT_STUDENTS)
+        else setStudents(students)
+      })
+      .catch(() => {
+        setStudents(DEFAULT_STUDENTS)
       })
   }, [])
 
