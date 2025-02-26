@@ -13,16 +13,21 @@ main {
   justify-content: space-between;
 }
 
+.solving {
+  display: flex;
+  gap: 2rem;
+}
+
 /* WIDTH */
 .elo-progression, .proba-progression-p1 {
   width: 49%;
 }
 
-.proba-solving-p1 {
+.proba-solving-p1, .proba-solving-p2 {
   width: 30%;
 }
 
-.elo-progression img, .proba-progression-p1 img, .proba-solving-p1 img {
+.elo-progression img, .proba-progression-p1 img, .proba-solving-p1 img, .proba-solving-p2 img {
   width: 100%;
 }
 

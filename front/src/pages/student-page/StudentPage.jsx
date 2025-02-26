@@ -25,10 +25,18 @@ const StudentPage = () => {
           </div>
         </div>
 
-        <div className='proba-solving-p1'>
-          <h2>Proba Solving P1</h2>
-          <img src={`${apiEndpoint}/proba_solving_p1/${slug}.webp`} alt="" />
+        <div className='solving'>
+          <div className='proba-solving-p1'>
+            <h2>Proba Solving P1</h2>
+            <img src={`${apiEndpoint}/proba_solving_p1/${slug}.webp`} alt="" />
+          </div>
+
+          <div className='proba-solving-p2'>
+            <h2>Proba Solving P2</h2>
+            <img src={`${apiEndpoint}/proba_solving_p2/${slug}.webp`} alt="" />
+          </div>
         </div>
+        
       </main>
       
     </div>
